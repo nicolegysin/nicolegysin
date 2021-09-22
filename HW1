@@ -1,0 +1,160 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[lmargin=1in,rmargin=1in,tmargin=1in,bmargin=1in]{geometry}
+\usepackage{homework}
+
+% -------------------
+% Content
+% -------------------
+\begin{document}
+\homework{}
+
+% Problem 1
+\problem{10} Determine if the following sentences are propositions. If the sentence is a proposition, mark it `T'; otherwise, mark the sentence `F.'
+	\begin{enumerate}[(a)]
+	\item \uans{1.5cm}: $|3 - 5| > 10$
+	\item \uans{1.5cm}: I just started watching `The Chair.'
+	\item \uans{1.5cm}: The universe is infinite.
+	\item \uans{1.5cm}: $n + 1$ is odd.  
+	\item \uans{1.5cm}: Why are you doing this homework?
+	\end{enumerate}
+
+
+
+\newpage
+
+
+
+% Problem 2
+\problem{10} Give an original example of a proposition.
+
+
+
+\newpage
+
+
+
+% Problem 3
+\problem{10} Give an original non-example of a proposition.
+
+
+
+\newpage
+
+
+
+% Problem 4
+\problem{5} Determine if the following propositions are true (T) or false (F). 
+	\begin{enumerate}[(a)]
+	\item \uans{1.5cm}: If $n$ is an integer, then $2n$ is even.
+	\item \uans{1.5cm}: Every prime number is odd.
+	\item \uans{1.5cm}: $x^2 + 1 > 0$
+	\item \uans{1.5cm}: It will either rain tomorrow or not.
+	\item \uans{1.5cm}: If $x^2= 9$, then $x= 3$,
+	\end{enumerate}
+
+
+
+\newpage
+
+
+
+% Problem 5
+\problem{10} Negate the following sentences:
+	\begin{enumerate}[(a)]
+	\item $2 \cdot 2= 4$ or $3 \cdot 3= 6$
+	\item Everyone in the room has taken a Mathematic course.
+	\item She speaks German and English. 
+	\item $x > 1$ and $x$ is an integer.
+	\item If you study for the exam, then you will pass. 
+	\end{enumerate}
+
+
+
+\newpage
+
+
+
+% Problem 6
+\problem{10} Negate each of the following propositional formulas $P$ by finding a formula logically equivalent $P$ in which the negation applies only to individual atoms. 
+	\begin{enumerate}[(a)]
+	\item $P \vee (\neg Q)$
+	\item $\neg Q \to \neg P$
+	\item $(P \vee Q) \wedge (\neg P \vee \neg Q)$
+	\item $P \wedge Q \to P \vee Q$
+	\item $P \vee (Q \Leftrightarrow R)$
+	\end{enumerate}
+
+
+
+\newpage
+
+
+
+% Problem 7
+\problem{10} Express the proposition ``$P$ unless $Q$'' in terms of the propositions $P$ and $Q$ and the logical symbols $\neg, \wedge, \vee, \to$. [Unless can mean many things, here it means ``if not.'']
+
+
+
+\newpage
+
+
+
+% Problem 8
+\problem{10} Recall that the `exclusive or', denoted $\veebar$, was defined by $P \veebar Q \Leftrightarrow (P \vee Q) \wedge \neg (P \wedge Q)$. Show that $P \veebar Q$ is logically equivalent to $P \leftrightarrow \neg\ Q$.
+
+
+
+\newpage
+
+
+
+% Problem 9
+\problem{10} Compute the truth tables for the following compound propositions. In each case, indicate whether the propositional formula is a tautology, contradiction, or neither. 
+	\begin{enumerate}[(a)]
+	\item $(P \wedge Q) \wedge (R \wedge \neg Q)$
+	\item $(P \leftrightarrow Q) \leftrightarrow (P \wedge Q) \vee (\neg P \wedge \neg Q)$
+	\item $(P \to T_0) \wedge (F_0 \to Q)$
+	\end{enumerate}
+
+
+
+\newpage
+
+
+
+% Problem 10
+\problem{10} Determine if the logical symbol $\to$ is associative. Be sure to fully justify your answer. 
+
+
+
+\newpage
+
+
+
+% Problem 11
+\problem{10} Give the converse/contrapositive of the following statements. 
+	\begin{enumerate}[(a)]
+	\item $P \to Q$
+	\item If it is snowing outside, then it is cold.
+	\end{enumerate}
+
+
+
+\newpage
+
+
+
+% Problem 12
+\problem{10} Determine if the following argument is logical. Explain. 
+	\begin{table}[!ht]
+	\centering
+	\begin{tabular}{c}
+	$P \to R$ \\
+	$\neg P \to Q$ \\
+	$Q \to S$ \\ \hline
+	$\therefore \neg R \to S$
+	\end{tabular}
+	\end{table}
+
+
+\end{document}
